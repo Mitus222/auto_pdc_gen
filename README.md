@@ -12,3 +12,7 @@ Change－创建 pxl.chg文件，记录两个打包之间的变更。
 Report－创建 pstrprt.dat，提供元件概要。  
 Pinlist－创建 pstpin.dat，包含设计指定的管脚列表。  
 Xref－创建 pstxref.dat，包含交叉标注信息。包含所有的逻辑－物理分配、网络名称和元件。
+
+auto_pdc_gen.pl:利用pstxref.dat文件自动生成pdc文件
+auto_io_gen.pl:利用pstxref.dat文件自动生成io端口code
+auto_compare.pl:比较两个文件不同的行，并非分别存储，用来比较sch更新后pin的增添与删除
